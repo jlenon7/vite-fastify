@@ -4,11 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
+  <!-- prod -->
   <link rel="stylesheet" href="/assets/app.css">
   <script defer type="module" src="/assets/app.js"></script>
+  <!-- dev -->
+  <link rel="stylesheet" href="/resources/css/app.scss">
+  <script defer type="module" src="/resources/js/app.js"></script>
 </head>
 <body>
-  <p class="text-center">it works</p>
+  <div class="m-2">
+    <h1 class="text-4xl">it works</h1>
+  </div>
   <script type="module" src="/@vite/client"></script>
 </body>
 </html>
